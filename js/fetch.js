@@ -18,3 +18,15 @@ function loadData () {
       .then(json => console.log(json) )
 
 }
+function loadData2 () {
+      fetch(url)
+      .then (response => response.json())
+      .then(json => console.log(json) )
+
+}
+function loadData3 () {
+      fetch(url)
+      .then (response => response.json())
+      .then(json => console.log(json) )
+
+}
